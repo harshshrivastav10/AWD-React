@@ -5,5 +5,5 @@ app.get("/", (req, res) => {
 });
 const port = 3000 || process.env.port;
 app.listen(port, () => {
-    console.log("this is server is running");
+    console.log("this  server is running");
 });
